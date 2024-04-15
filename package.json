@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -44,5 +44,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "homepage": "https://unstopable-sagar.github.io/my-portfolio"
 }
