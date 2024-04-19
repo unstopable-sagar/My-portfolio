@@ -2,6 +2,8 @@ import logo from "./images/portfolio.png";
 import bannerImg from "./images/sagar1.png";
 import projectOne from "./images/projects/django.jpg";
 import projectTwo from "./images/projects/react.jpg";
+import projectThree from "./images/projects/netprime.jpg";
+import projectFour from "./images/projects/spacex.jpeg";
 // import projectThree from "./images/projects/projectThree.jpeg";
 // import testimonialOne from "./images/testmonial/testimonialOne.png";
 // import testimonialTwo from "./images/testmonial/testimonialTwo.png";
@@ -13,7 +15,8 @@ export {
   bannerImg,
   projectOne,
   projectTwo,
-  // projectThree,
+  projectThree,
+  projectFour,
   // testimonialOne,
   // testimonialTwo,
   // quote,

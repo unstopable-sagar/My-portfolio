@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 import { Link } from 'react-router-dom';
 
@@ -17,22 +17,36 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <a href="http://127.0.0.1:8000/api/posts/2" target="_blank" rel="noopener noreferrer">
-
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <ProjectsCard
-            title="E-commerce Website using Django"
+            title="E-commerce Website - Django, Bootstrap"
             // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
             src={projectOne}
           />
         </a>
-
         <ProjectsCard
-          title="E-commerce Website using React"
+          title="E-commerce Website - React, Bootstrap"
           // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectTwo}
         />
+        <a href="https://unstopable-sagar.github.io/net-prime-react/" target="_blank" rel="noopener noreferrer">
+          <ProjectsCard
+            title="Simple movies searching app - react and pure css"
+            // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            src={projectThree}
+          />
+        </a>
+        <a href="https://unstopable-sagar.github.io/Spacex-Clone/" target="_blank" rel="noopener noreferrer">
+          <ProjectsCard
+            title="Spacex clone - CSS, JavaScript"
+            // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            src={projectFour}
+          />
+        </a>
 
       </div>
     </section>
