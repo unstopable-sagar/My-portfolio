@@ -1,5 +1,5 @@
 import logo from "./images/portfolio.png";
-import bannerImg from "./images/sagar1.png";
+import bannerImg from "./images/sagar1.jpg";
 import projectOne from "./images/projects/django.jpg";
 import projectTwo from "./images/projects/react.jpg";
 import projectThree from "./images/projects/netprime.jpg";

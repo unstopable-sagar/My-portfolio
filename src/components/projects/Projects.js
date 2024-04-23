@@ -25,12 +25,14 @@ const Projects = () => {
             src={projectOne}
           />
         </a>
-        <ProjectsCard
-          title="E-commerce Website - React, Bootstrap"
-          // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
+        <a href="https://unstopable-sagar.github.io/react-ecommerce-app/" target="_blank" rel="noopener noreferrer">
+          <ProjectsCard
+            title="E-commerce Website - React, Bootstrap"
+            // des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            //     Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+            src={projectTwo}
+          />
+        </a>
         <a href="https://unstopable-sagar.github.io/net-prime-react/" target="_blank" rel="noopener noreferrer">
           <ProjectsCard
             title="Simple movies searching app - react and pure css"
